@@ -1,0 +1,49 @@
+# Node modules (always ignore)
+node_modules/
+
+# Vite build output
+dist/
+build/
+.vite/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+vite-debug.log
+
+# Editor & system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.local
+*.tmp
+
+# Testing outputs
+coverage/
+*.spec.ts
+*.test.ts
+
+# Optional: Mac OS & Windows metadata files
+Icon?
+desktop.ini
+
+# Optional: Sentry sourcemaps or analytics dumps
+*.map
+
+# Cache folders (build & IDE)
+.cache/
+.eslintcache
+stylelintcache
+parcel-cache/
+
+# Storybook (if using)
+storybook-static/

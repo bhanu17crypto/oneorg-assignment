@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f6f8;
+  font-family: Times New Roman, Times, serif;;
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  width: 100%;
+  max-width: 800px;     
+  margin: 30px auto;    
+  text-align: center;   
+}
+
+
+.app-header {
+  margin-bottom: 25px;
+}
+
+.container {
+  width: 100%;
+}
+
+
+.card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: left;           
+  display: flex;
+  flex-direction: column;
+  align-items: center;        
+}
+
+
+.upload-area,
+.query-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.file-input,
+.query-textarea {
+  width: 90%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.btn-primary { background: #007bff; color: white; }
+.btn-secondary { background: #28a745; color: white; }
+
+
+.answer-box {
+  width: 90%;
+  background: #eef6ff;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+
+.sources-list {
+  width: 90%;
+}
+
+.source-card {
+  background: #f1f1f1;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+
+.page-badge, .score-badge {
+  background: #007bff;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
